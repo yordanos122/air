@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    
+    $( "#datepicker" ).datetimepicker({
+	format: "dddd, MMMM Do YYYY, h:mm p",
+	 sideBySide:true,
+	 widgetPositioning: {
+	 	vertical:'bottom'
+	 }
+    });
+})
+.yyy{
+position: absolute;
+top: 25%;
+left: 60%;
+
+}
